@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/*@font-face{
+    font-family: futura-renner;
+    src: url(./WebFont/futura-renner/FuturaRenner-Regular.otf);
+}*/
+.hero{
+    background-image: linear-gradient(to bottom right, #2196F3, #009688);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 3em;
+  
+}
+.hero h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.5em;
+}
+nav{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 35px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+li{
+    display: inline;
+    padding: 16px 24px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 4px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover{
+    background-color: grey;
+    color:white;
+    font-family: cursive;
+}
+
+
+/* Services Section */
+
+.Service h1{
+    font-size: 40px;
+}
+.Service{
+ width: 100%;
+ background-color: whitesmoke;
+ margin-top:50px ;
+ margin-bottom: 50px;
+ padding: 50px;
+ text-align: center;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+.col-3{
+    width: 33.33%;
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+.col-3 img{
+    max-width: 100%;
+}
+.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.content{
+    font-family: cursive;
+}
+
+/* About */
+.About{
+   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url("./images/you-x-ventures-vbxyFxlgpjM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:black;
+    
+    
+}
+.content2{
+width: 80%;
+margin: auto;
+background-color: rgba(0,0,0,0.05);
+padding-top: 20px;
+color: black;
+font-family:sans-serif;
+font-weight: bolder;
+font-style: oblique;
+
+}
+.about-butn{
+    color: white;
+    background-color: rgba(0,0,0,0.01);
+    padding: 10px;
+    border: none;
+    outline: 1px solid yellow;
+    margin-top: 20px;
+    font-size: larger;
+    cursor: progress;
+}
+
+.about-butn:hover{
+ transition: 2s ease;
+ background-color: yellow;
+ color: white;
+
+}
+
+.section3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+}
+.row1{
+  width: 90%;
+  padding-bottom: 200px;
+  padding-top: 50px;
+  margin: auto;
+}
+.member{
+    float: left;
+    width: 33.33%;
+    padding: 35px 5px 35px 5px;
+}
+.member img{
+    max-width: 100%;
+    
+}
+.team{
+    max-width: 200px;
+    max-height: 170px;
+    border: 1px solid rgb(197, 197, 197);
+    box-shadow: 2px 3px 4px black;
+   
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.contact{
+    width: 100%;
+}
+.row3{
+    width: 100%;
+    padding: 35px 5px 35px 5px;
+    background-color: red;
+    text-align: center;
+}
+.cont1{
+    float: left;
+    width: 33.33%;
+
+}
+.cont1 h3{
+   display: inline;
+}
+.row3::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.feedback{
+    width: 100%;
+    background-color: lavender;
+    padding: 30px 5px 30px 5px;
+    text-align: center;
+}
+.feedback::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.feed1{
+    width: 35%;
+    float: left;
+    text-align: center;
+    padding: 30px 5px 30px 5px;
+
+}
+.feed2{
+    width: 65%;
+    float: left;
+    text-align: center;
+    padding: 30px 5px 30px 5px;
+    padding-right: 10%;
+}
+.feed1 h2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+}
+.social-icon{
+    border: 1px solid black;
+    padding: 15px;
+}
+.fb{
+    background-color: #3a589b;
+    color: #fff;
+}
+.tw{
+    color: white;
+    background-color: dodgerblue;
+}
+.in{
+    background-color: crimson;
+    color: white;
+}
+.ln{
+    background-color: #007bb6;
+    color: white;
+}
+.feed2 h2{
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: lighter;
+}
+.form-col{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    text-align: left;
+}
+.uname, .ename{
+    width: 100%;
+    height: 35px;
+    padding: 0px 5px 0px 5px;
+   
+}
+[class="label"]{
+    float: left;
+}
+.msg{
+    width: 100%;
+    height: 200px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+
+}
+
+.button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 50%;
+    font-size: larger;
+    cursor: pointer;
+   
+}
+.last{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 10px 20px 10px;
+
+}
+.last{
+    content: "";
+    clear: both;
+    display: table;
+}
+.last h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.last-row{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+/* Media Queries */
+@media screen and (max-width:500px){
+    .col-3{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .row1{
+        padding-bottom: 700px;
+    }
+    .member{
+        width: 100%;
+        margin-bottom: 20px;
+       
+    }
+    .cont1{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .feed1{
+        width: 100%;
+    }
+    .feed2{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .form{
+        width: 100%;
+    }
+    .last-row{
+        width: 100%;
+    }
+
+    nav{
+       width: 100%;
+       background-color: yellow;
+       height: 270px;
+      
+         }
+         nav ul{
+             text-align: center;
+         }
+         li{
+             display: block;
+           
+         }
+         li a{
+             padding: 10px 100px 10px 100px;
+         }
+}
