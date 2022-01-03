@@ -29,7 +29,7 @@ body{
     font-size: 1.5em;
 }
 nav{
-    background-color: rgb(255, 0, 0);
+    background-color:#28b485;
     width: 100%;
     height: 35px;
 }
@@ -46,14 +46,14 @@ li{
 }
 li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: larger;
     padding: 4px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
 }
 li a:hover{
-    background-color: grey;
+    background-color: #7ed56f;
     color:white;
     font-family: cursive;
 }
@@ -177,7 +177,7 @@ font-style: oblique;
 .row3{
     width: 100%;
     padding: 35px 5px 35px 5px;
-    background-color: red;
+    background-color: #7ed56f;
     text-align: center;
 }
 .cont1{
